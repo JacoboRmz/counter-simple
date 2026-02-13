@@ -5,11 +5,8 @@ SIM=iverilog
 all: sim
 
 sim:
-\t./sim/run_sim.sh
-
-verilate:
-\t# optional: if you want to use Verilator, implement commands here
-\t@echo "Verilate target (optional)"
+	./sim/run_sim.sh
 
 clean:
-\trm -rf sim/*.vcd sim/vvp
+	rm -rf sim/*.vcd sim/vvp
+
