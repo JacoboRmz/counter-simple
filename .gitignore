@@ -1,0 +1,6 @@
+# generated
+sim/vvp
+sim/waveform.vcd
+sim/*.o
+*.log
+.DS_Store
